@@ -1,0 +1,12 @@
+li {
+    list-style: none;
+}
+li.active {
+    color:teal;
+    font-weight: bold;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: gray;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Workout Async Code</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div id="main">
+            <h1>My Workout App</h1>
+            <button id="start-workout">Start Workout</button>
+            <p id="timer"><span id="seconds">0</span> Seconds</p>
+            <ul id="workout-list">
+                <li id="pushups">
+                    <input type="checkbox" name="pushups" />
+                    <label for="pushups">Pushups (3 Seconds)</label>
+                </li>
+                <li id="situps">
+                    <input type="checkbox" name="situps" />
+                    <label for="situps">Situps (5 Seconds)</label>
+                </li>
+                <li id="jumping-jacks">
+                    <input type="checkbox" name="jumping-jacks" />
+                    <label for="jumping-jacks">Jumping Jacks (1 Second)</label>
+                </li>
+            </ul>
+        </div>
+    </body>
+    <script src="index.js" type="module"></script>
+    <!-- <script src="no-callbacks.js" type="module"></script> -->
+    <!-- <script src="callbacks.js" type="module"></script> -->
+</html>
